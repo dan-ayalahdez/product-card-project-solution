@@ -12,34 +12,34 @@
 <body>
   
          <main>
-
-            <div class="image-container">
-              <picture >
-              <source media="(min-width: 1440px)" src="assets/images/image-product-desktop.jpg">
-              <source media="(min-width: 375px)" src="assets/images/image-product-mobile.jpg">
-              <img class="product-image" src="assets/images/image-product-mobile.jpg" alt="">
+          <section class="card">
+            <div class="card__img">
+              <picture>
+                <source srcset="assets/images/image-product-desktop.jpg" media="(min-width: 650px)">
+                <img src="assets/images/image-product-mobile.jpg" alt="" width="344" height="240">
               </picture>
             </div>
         
-            <div class="product-info">
-                <div class="product-type">PERFUME</div>
-                <div class="product-name">Gabrielle Essence Eau De Parfum</div>
-              
-                <div class="product-description">
-                  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-                  Perfumer-Creator for the House of CHANEL.
-                </div>
-              
-                <div class="prices">
-                  <div class="promotion-price">$149.99</div> <div class="normal-price">$169.99</div>
-                </div>
-              
-                <div class="button-container">
-                  <button class="cart-button"><img class="cart-icon" src="assets/images/icon-cart.svg">Add to Cart</button>
-                </div>
-
+            <div class="card__content">
+              <div class="card__category">PERFUME</div>
+              <div class="card__title">Gabrielle Essence Eau De Parfum</div>
+            
+              <div class="card__description">
+                A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                Perfumer-Creator for the House of CHANEL.
+              </div>
+            
+              <div class="card__price">
+                <div class="price-current">$149.99</div>
+                <div class="price-previous">$169.99</div>
+              </div>
+            
+              <button class="card__btn">
+                <img src="assets/images/icon-cart.svg" width="15" height="16">
+                Add to Cart
+              </button>
             </div>
-
+          </section>
          </main>
 
 </body>
