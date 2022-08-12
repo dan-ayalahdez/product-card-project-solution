@@ -1,4 +1,40 @@
-/* General */
+/* ------ Table of content ------
+
+1. Fonts
+	 1.1 Fraunces
+   1.2 Montserrat
+2. Custom property
+3. Global styles
+4. Typography
+5. Components
+   5.1 Card
+6. Media queries
+
+------------------------------ */
+/* ===============
+   Fonts
+   =============== */
+/* ---- Fraunces ---- */
+@font-face {
+	font-family: "Fraunces";
+	font-weight: 700;
+	font-display: swap;
+	src: url(../fonts/Fraunces/Fraunces-Bold.ttf);
+}
+
+/* ---- Montserrat ---- */
+@font-face {
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-display: swap;
+	src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-display: swap;
+	src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
 
 body{
     background-color: hsl(30, 38%, 92%);
